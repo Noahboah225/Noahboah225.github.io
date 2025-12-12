@@ -65,10 +65,10 @@ var background = function (window) {
             
             // TODO 4: Part 1 - Add buildings!     Q: This is before TODO 4 for a reason! Why?
            
-            for (var i = 0; i<5; ++i) {
+            for (var i = 0; i<100; ++i) {
             var buildingHeight = Math.random() * 300;
             var building = draw.rect(75, buildingHeight, 'DimGray', 'Black', 1);
-            building.x = 200 * i;
+            building.x = 50 * i;
             building.y = groundY - buildingHeight;
             background.addChild(building);
             buildings.push(building);
